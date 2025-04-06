@@ -7,9 +7,9 @@ The goal was to build a mini-SOC environment: a central Splunk server collecting
 
 ### Splunk Enterprise Installation Setup Step by Step on (Kali Linux) 
 ### Step 1 ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png)
-### The deployment began with setting up the Splunk Enterprise server on a Kali Linux machine. After downloading the Splunk Enterprise installer (Debian package) from Splunk’s website, it was installed via the command line.#
+### The deployment began with setting up the Splunk Enterprise server on a Kali Linux machine. After downloading the Splunk Enterprise installer (Debian package) from Splunk’s website, it was installed via the command line.
 ### Installation begins with the following command-line.
-### Step 2 ![image_alt]()
+### Step 2 ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/5cffbc471b120603b1e946672cf21fd937a2505a/2.png)
 
 
 
