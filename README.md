@@ -5,9 +5,12 @@ This project demonstrates a full deployment of Splunk as a Security Information 
 
 The goal was to build a mini-SOC environment: a central Splunk server collecting logs from a Windows 10 workstation and a Linux system. Key security configurations (such as SSL encryption and admin controls) were enabled to harden the SIEM, and essential Splunk apps/add-ons (like Splunk Security Essentials and the Splunk Add-on for Microsoft Windows) were installed to extend functionality. As a result, the Splunk server successfully ingests and indexes Windows event logs (Security, System, Application) and Linux system logs, with end-to-end verification of data flow.
 
-### Splunk Enterprise Installation Setup Step by Step on (Kali Linux)
-The deployment began with setting up the Splunk Enterprise server on a Kali Linux machine. After downloading the Splunk Enterprise installer (Debian package) from Splunk’s website, it was installed via the command line.
-![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png)
+### Splunk Enterprise Installation Setup Step by Step on (Kali Linux) 
+### Step 1 ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png)
+### The deployment began with setting up the Splunk Enterprise server on a Kali Linux machine. After downloading the Splunk Enterprise installer (Debian package) from Splunk’s website, it was installed via the command line.#
+### Installation begins with the following command-line.
+### Step 2 ![image_alt]()
+
 
 
 ![Installing Splunk Enterprise on Kali Linux](screenshots/splunk_installation.png)
