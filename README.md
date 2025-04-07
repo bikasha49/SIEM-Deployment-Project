@@ -93,3 +93,5 @@ This document's successful deployment and configuration enable SOC analysts to p
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png) 
 ## Step2
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/286351972c50b9e2880c811e43feb0956af47b31/2.png)
+## Step3
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/529dff5a0790c90985aa458fa51a536ef1b81c26/3%20done%20install%20.png)
