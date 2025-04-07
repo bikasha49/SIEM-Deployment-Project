@@ -1,94 +1,93 @@
-# Comprehensive Splunk SIEM Deployment Project
+# Comprehensive Splunk Enterprise Deployment and Configuration for SOC Analysts: Endpoint Log Monitoring
 
-## Executive Summary
-This project demonstrates a full deployment of Splunk as a Security Information and Event Management (SIEM) platform, showcasing the installation, configuration, and use of Splunk Enterprise alongside Universal Forwarders on Windows and Linux endpoints.
+## Project Summary
+This project demonstrates a professional and detailed approach to deploying Splunk within a virtualized environment for cybersecurity operations center (SOC) analyst activities. The process involved setting up Splunk Server in VMware Workstation Pro using Kali Linux, deploying a Windows 10 endpoint machine, and configuring Splunk Universal Forwarder and essential Add-ons on the endpoint to send critical logs (system, security, and application logs) back to the Splunk server for centralized monitoring and analysis.
 
-The goal was to build a mini-SOC environment: a central Splunk server collecting logs from a Windows 10 workstation and a Linux system. Key security configurations (such as SSL encryption and admin controls) were enabled to harden the SIEM, and essential Splunk apps/add-ons (like Splunk Security Essentials and the Splunk Add-on for Microsoft Windows) were installed to extend functionality. As a result, the Splunk server successfully ingests and indexes Windows event logs (Security, System, Application) and Linux system logs, with end-to-end verification of data flow.
+## Detailed Step-by-Step Implementation
 
-### Splunk Enterprise Installation Setup Step by Step on (Kali Linux) 
-### Step 1 ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png)
-### The deployment began with setting up the Splunk Enterprise server on a Kali Linux machine. After downloading the Splunk Enterprise installer (Debian package) from Splunk’s website, it was installed via the command line.
-### Installation begins with the following command-line.
-### Step 2 ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/5cffbc471b120603b1e946672cf21fd937a2505a/2.png)
+### Installation and Setup
+1. Install VMware Workstation Pro on the host machine.
+2. Create a new virtual machine and install Kali Linux.
+3. Install VMware Tools on Kali Linux.
+4. Verify network connectivity and settings (Bridge/NAT mode).
 
+### Splunk Server Configuration (Kali Linux)
+5. Download the latest Splunk Enterprise for Linux.
+6. Install Splunk Enterprise using terminal commands:
+   ```bash
+   sudo dpkg -i splunk-*.deb
+   ```
+   [Installing Splunk Enterprise on Kali Linux](screenshots/splunk_installation.png)
+7. Start Splunk Server and set it to auto-start:
+   ```bash
+   sudo /opt/splunk/bin/splunk start --accept-license
+   ```
+8. Enable boot-start configuration:
+   ```bash
+   sudo /opt/splunk/bin/splunk enable boot-start
+   ```
+9. Access Splunk web interface [http://localhost:8000](http://localhost:8000) and set administrative credentials.
 
+### Endpoint Machine Deployment (Windows 10)
+10. Deploy Windows 10 as a second VM in VMware Workstation Pro.
+11. Install VMware Tools on Windows 10.
+12. Check network connectivity and configurations ensuring endpoint-server communication.
 
-![Installing Splunk Enterprise on Kali Linux](screenshots/splunk_installation.png)
+### Splunk Universal Forwarder Installation (Windows 10)
+13. Download Splunk Universal Forwarder for Windows.
+14. Execute installer and complete the installation process.
+15. Specify the deployment server (Kali Linux Splunk server IP and Port).
+16. Select and enable Windows Event Logs (System, Security, Application).
 
-### Initial Access and Configuration
-With Splunk Enterprise running, the web interface became accessible on port 8000.
+### Splunk Add-Ons Installation
+17. Download essential Add-ons (e.g., Windows App for Splunk).
+18. Extract and place Add-ons into Splunk Universal Forwarder's appropriate directory.
+19. Restart Splunk Universal Forwarder to apply the Add-ons.
 
-![Splunk web interface ready for first login](screenshots/splunk_web_interface.png)
+### Splunk Server Configuration for Data Reception
+20. Define receiving port on Splunk server (default: 9997).
+21. Confirm receiver settings under Settings > Forwarding and Receiving.
+22. Ensure firewall rules allow traffic from endpoint to server.
 
-### Universal Forwarder Deployment (Windows 10)
-The next part of the environment setup was installing the Splunk Universal Forwarder (UF) on a Windows 10 machine to serve as a log source.
+### Endpoint Configuration for Data Forwarding
+23. Edit `outputs.conf` on Windows endpoint to define Splunk server IP and receiving port.
+24. Edit `inputs.conf` to specify the logs to forward (System, Security, Application logs).
+25. Restart Splunk Universal Forwarder to activate configurations.
 
-![Configuring the Universal Forwarder during installation](screenshots/uf_configuration.png)
+### Verification and Testing
+26. Perform a connectivity test (ping and network checks).
+27. Verify Splunk server receiving data using Splunk search (`index=*`).
+28. Confirm logs appear from Windows endpoint in Splunk.
 
-## Security Configurations
+### Splunk Indexes and Source Types Configuration
+29. Create dedicated indexes (`windows_logs`, `security_logs`, etc.) on the Splunk server.
+30. Set proper source types (`WinEventLog:Security`, `WinEventLog:System`, `WinEventLog:Application`).
+31. Configure retention and indexing settings for optimal performance.
 
-### Enabling SSL for Splunk Web
-Securing the Splunk deployment was a priority. By default, Splunk’s web interface can run on HTTP – in our case it was initially on `http://192.168.79.128:8000`. To follow best practices, we enabled SSL encryption for Splunk Web.
+### Field Extraction and Parsing Configuration
+32. Configure `props.conf` and `transforms.conf` for effective data parsing.
+33. Validate field extractions via Splunk's search query.
 
-![Enabling HTTPS for the web interface](screenshots/enable_https.png)
+### Alerts and Reporting Configuration
+34. Set custom alerts for critical security events.
+35. Define thresholds and notification actions (email alerts, dashboards).
+36. Test alerts by generating specific events on the endpoint.
 
-### Splunk Security Essentials (SSE) App
-Next, we installed Splunk Security Essentials (SSE), a free app from Splunk that provides a library of security use-cases, guides, and pre-built detections.
+### Dashboard Creation and Visualization
+37. Develop dashboards for real-time monitoring.
+38. Configure visual panels for easy interpretation of log data.
+39. Customize dashboard layout for SOC analyst convenience.
 
-![Confirmation of Splunk Security Essentials installation](screenshots/sse_installation.png)
+### Final Testing and Validation
+40. Simulate various security events and system activities on the endpoint.
+41. Confirm event log capture and correct indexing.
+42. Document the final Splunk configuration and take relevant screenshots.
+43. Compile and review all documentation and screenshots into a structured project report.
 
-### Installing Relevant Add-ons (Windows Logs)
-In addition to SSE, we deployed the Splunk Add-on for Microsoft Windows, which is essential for collecting and parsing Windows host logs.
+## Conclusion
+This document's successful deployment and configuration enable SOC analysts to perform effective monitoring, swift incident response, and comprehensive security analysis utilizing Splunk's robust capabilities.
 
-![Installing Splunk Add-on for Microsoft Windows](screenshots/windows_addon_installation.png)
-
-## Data Ingestion
-
-### Configuring Data Inputs on Splunk (Receiver)
-On the Splunk Enterprise server, we configured it to receive data from the Universal Forwarders by enabling the listening port 9997 for incoming forwarded data.
-
-![Enabling the listening port 9997](screenshots/enable_listening_port.png)
-
-### Enabling Log Collection on Forwarders
-On the data source side, we configured what logs to send. For the Windows 10 forwarder, this meant enabling the monitoring of the Windows Event Logs.
-
-![Windows Event Log inputs enabled](screenshots/windows_event_log_inputs.png)
-
-### Verifying Log Flow from Endpoints
-Once the inputs were enabled and forwarders running, we verified that logs were indeed flowing into the Splunk server.
-
-![Verifying log flow from endpoints](screenshots/log_flow_verification.png)
-
-## Monitoring & Management
-
-### Forwarder Management and Status
-An important aspect of operating a SIEM is monitoring the health and status of log collectors (forwarders).
-
-![Forwarder Management](screenshots/forwarder_management.png)
-
-### Service Control and Reliability
-We also verified the forwarder’s service on the Windows endpoint at the OS level.
-
-![Windows Services showing SplunkForwarder service running](screenshots/windows_services.png)
-
-## Final Summary
-Deploying Splunk Enterprise with Universal Forwarders on Windows and Linux provided hands-on experience in building a functional SIEM platform from scratch. The process required knowledge of systems administration, networking, and security configuration. This project demonstrates the ability to set up, secure, and manage a SIEM environment, highlighting practical skills relevant to SOC or cybersecurity analyst roles.
-
-### Lessons Learned
-- Importance of planning and configuring inputs.
-- Verification of each change to avoid blind spots.
-- Value of Splunk add-ons and apps in accelerating deployment.
-- End-to-end understanding of Splunk’s architecture and practical implementation.
-
-## Screenshots
+## Hands-On Experience of Screenshots following steps
 - [Installing Splunk Enterprise](screenshots/splunk_installation.png)
-- [Splunk web interface ready for first login](screenshots/splunk_web_interface.png)
-- [Configuring the Universal Forwarder during installation](screenshots/uf_configuration.png)
-- [Enabling HTTPS for the web interface](screenshots/enable_https.png)
-- [Confirmation of Splunk Security Essentials installation](screenshots/sse_installation.png)
-- [Installing Splunk Add-on for Microsoft Windows](screenshots/windows_addon_installation.png)
-- [Enabling the listening port 9997](screenshots/enable_listening_port.png)
-- [Windows Event Log inputs enabled](screenshots/windows_event_log_inputs.png)
-- [Verifying log flow from endpoints](screenshots/log_flow_verification.png)
-- [Forwarder Management](screenshots/forwarder_management.png)
-- [Windows Services showing SplunkForwarder service running](screenshots/windows_services.png)
+
+![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png)
