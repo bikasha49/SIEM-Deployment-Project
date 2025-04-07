@@ -87,8 +87,7 @@ This project demonstrates a professional and detailed approach to deploying Splu
 ## Conclusion
 This document's successful deployment and configuration enable SOC analysts to perform effective monitoring, swift incident response, and comprehensive security analysis utilizing Splunk's robust capabilities.
 
-## Hands-On Experience of Screenshots following steps
-- [Installing Splunk Enterprise](screenshots/splunk_installation.png)
+## Skilled in capturing and presenting step-by-step technical workflows with visuals
 ## Step 1
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png) 
 ## Step 2
