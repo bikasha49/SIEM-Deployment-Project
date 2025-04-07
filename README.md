@@ -89,18 +89,92 @@ This document's successful deployment and configuration enable SOC analysts to p
 
 ## Hands-On Experience of Screenshots following steps
 - [Installing Splunk Enterprise](screenshots/splunk_installation.png)
-## Step1
+## Step 1
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png) 
-## Step2
+## Step 2
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/286351972c50b9e2880c811e43feb0956af47b31/2.png)
-## Step3
+## Step 3
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/529dff5a0790c90985aa458fa51a536ef1b81c26/3%20done%20install%20.png)
-## Step4
-### 
-
-
-
-
+## Step 4
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/4%20start.png)
+## Step 5
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/5%20localhost%20.png)
+## Step 6
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/6%20splunk%20ready%20to%20login%20in%20localhost.png)
+## Step 7
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/7%20splunk%20home%20page.png)
+## Step 8
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/8%20SSL%20encrypted.png)
+## Step 9
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/9%20restarting%20.png)
+## Step 10
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/10%20restart.png)
+## Step 11
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/11%20self%20sign%20certificate.png)
+## Step 12
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/12%20isntalling%20security%20essentials%20.png)
+## Step 13
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/13%20getting%20data%20forwarding%20and%20receiving.png)
+## Step 14
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/14%20re%20ceiving%20portf%209997.png)
+## Step 15
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/15%20installing%20splunkforwarder%20in%20windows10.png)
+## Step 16
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/16%20select%20local%20system.png)
+## Step 17
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/17%20deafult%20%26%20next.png)
+## Step 18
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/18%20administrator%20username%20%26%20password.png)
+## Step 19
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/19%20splunk%20deployement%20server%20ip%20and%20deafult%20port.png)
+## Step 20
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/20%20receiving%20indexer%20ip%20and%20deafult%20tcp%20port.png)
+## Step 21
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/21%20done%20instalation%20SplunkUniversalForwarder.png)
+## Step 22
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/22%20cheking%20Services%20.png)
+## Step 23
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/22%20cheking%20Services%20.png)
+## Step 24
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/24%20restarting%20SplunkForwarder.png)
+## Step 25
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/25%20dowloading%20Splunk%20Add-On%20Microsoft%20Windows.png)
+## Step 26
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/26%20extracted%20Splunk-add_on%20.png)
+## Step 27
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/27%20deployement%20server%20outputs.png)
+## Step 28
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/28%20deployement%20client.png)
+## Step 29
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/29%20pest%20the%20Splunk-TA_Windows.png)
+## Step 30
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/30%20need%20to%20change%20inputs%20.png)
+## Step 31
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/31%20change%20the%20value%20of%20input%20and%20save%20on%20local%20folder.png)
+## Step 32
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/32%20restart%20the%20services%20again.png)
+## Step 33
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/33%20download%20splunkforwarder%20in%20kali%20linux.png)
+## Step 34
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/34%20splunk%20forwarder%20is%20done%20instalation.png)
+## Step 35
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/35%20receiving%20data%20port%20tcp%20deafult%20port%20.png)
+## Step 36
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/36%20receiving%20data%20tcp%20port%20is%20add%20it.png)
+## Step 37
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/37%20add%20data%20from%20splunk%20server.png)
+## Step 38
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/38%20splunk%20forwarder%20click.png)
+## Step 39
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/39%20data%20receiving%20from%20endpoint.png)
+## Step 40
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/40%20hostname%20is%20match.png)
+## Step 41
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/41%20data%20summary.png)
+## Step 42
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/42%20receiving%20data%20from%20endpoint.png)
+## Step 43
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/43%20collecting%20a%20logs.png)
 
 
 
