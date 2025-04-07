@@ -89,5 +89,7 @@ This document's successful deployment and configuration enable SOC analysts to p
 
 ## Hands-On Experience of Screenshots following steps
 - [Installing Splunk Enterprise](screenshots/splunk_installation.png)
-
-![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png)
+## Step1
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/bc8e634c9eafe21f92e9744cf6f915283c6cdd39/1%20.png) 
+## Step2
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/286351972c50b9e2880c811e43feb0956af47b31/2.png)
