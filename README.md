@@ -133,7 +133,7 @@ This document's successful deployment and configuration enable SOC analysts to p
 ## Step 22
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/22%20cheking%20Services%20.png)
 ## Step 23
-### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/22%20cheking%20Services%20.png)
+### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/76993c69c3d655a3c93b4e5dbe069e3095f6bfce/23%20SplunkForwarder%20is%20running.png)
 ## Step 24
 ### ![image_alt](https://github.com/bikasha49/SIEM-Deployment-Project/blob/b9c74f019bb2ae266600dbce2d721a60b562dbde/24%20restarting%20SplunkForwarder.png)
 ## Step 25
