@@ -53,3 +53,25 @@ The environment consists of a centralized Indexer receiving encrypted logs from 
 * Verified data flow using the Splunk Search Processing Language (SPL):
    ```splunk
    index=main host="Windows10-Endpoint" sourcetype="WinEventLog:Security" | stats count by EventCode
+
+## 🧠 Competencies Demonstrated
+* **Log Pipeline Management:** Deep understanding of how data moves from *Edge* (Forwarder) to *Index* (Server).
+* **Linux CLI Administration:** Managing system services (`systemctl`), modifying file permissions (`chmod`), and handling package installations (`dpkg`).
+* **Troubleshooting:** Diagnosing complex network connectivity issues (firewall rules) and resolving endpoint service failures.
+* **Windows Event Architecture:** Selecting and filtering the correct log channels (System vs. Security) to ensure effective monitoring without log fatigue.
+---
+
+<div align="center">
+
+### 🌐 Let's Connect
+
+<a href="https://www.linkedin.com/in/bikasha-gurung-082290288">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+</a>
+
+<br />
+<br />
+
+*If you found this project helpful, please give it a Star! ⭐*
+
+</div>
