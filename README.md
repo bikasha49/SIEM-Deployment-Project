@@ -1,8 +1,10 @@
 # 🛡️ Splunk Enterprise SIEM Deployment
 
-> **Role:** Security Operations (SOC) Analyst Portfolio Project
-> **Tech Stack:** Splunk Enterprise 9.x, Splunk Universal Forwarder, Kali Linux, Windows 10
-> **Focus:** Log Ingestion, Telemetry Analysis, and Threat Detection
+| Category | Details |
+| :--- | :--- |
+| **🛡️ Role** | Security Operations (SOC) Analyst Project |
+| **💻 Tech Stack** | ![Splunk](https://img.shields.io/badge/Splunk-Enterprise-000000?style=flat-square&logo=splunk&logoColor=white) ![Kali](https://img.shields.io/badge/Kali-Linux-5C1F87?style=flat-square&logo=kalilinux&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-10-0078D6?style=flat-square&logo=windows&logoColor=white) |
+| **🎯 Focus** | Log Ingestion, Windows Event Analysis and Threat Detection |
 
 ## 📌 Executive Summary
 This project demonstrates the deployment of a fully functional **Security Information and Event Management (SIEM)** architecture. I designed and built a lab environment to simulate a corporate network, focusing on the lifecycle of a security log: from generation on the endpoint, to transmission via forwarders, to indexing and visualization on the SIEM.
