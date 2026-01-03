@@ -43,9 +43,9 @@ The environment consists of a Windows 10 endpoint, a Splunk Universal Forwarder 
 
 • Configured the service to run as the Local System account and pointed it to the Splunk server IP on port 9997
 
-• Edited `inputs.conf` to enable Security, System and Application logs and set the index to `main`【23526184222711†L146-L161】
+• Edited inputs.conf to enable Security, System and Application logs and set the index to main
 
-• Edited `outputs.conf` to define the Splunk server as the data receiver【23526184222711†L146-L161】
+• Edited outputs.conf to define the Splunk server as the data receiver
 
 ## Tools and Technologies Used
 
