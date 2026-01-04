@@ -123,11 +123,11 @@ Confirms Splunk successfully detected incoming log data.
 
 ### 5️⃣ Data Summary View
 Displays hosts, sources, and sourcetypes actively indexed.
-![Data Summary](images/data_summary.png)
+![Data Summary](images/41%20data%20summary.png)
 
 ### 6️⃣ Real-Time Search Results
 Shows indexed Windows events with timestamps and host context.
-![Search Results](images/search_results.png)
+![Search Results](images/42%20receiving%20data%20from%20endpoint.png)
 
 ### 7️⃣ Log Source Breakdown
 Breakdown of Security, System, and Application logs.
