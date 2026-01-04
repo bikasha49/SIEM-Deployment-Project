@@ -1,4 +1,4 @@
-# On Prem Splunk SIEM Deployment
+# Splunk SIEM Deployment Windows Telemetry Threat Hunting
 
 ## Project Summary
 
