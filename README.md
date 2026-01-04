@@ -139,10 +139,7 @@ The environment consists of a Windows 10 endpoint, a Splunk Universal Forwarder 
 
 • Provides documented evidence of detection logic and analysis skills
 
-## Screenshots and Evidence
-
-• Splunk architecture diagram (included in `images`)
-
+## Screenshots and Evidence 👉 *[Click here](https://github.com/bikasha49/SIEM-Deployment-Project/tree/main/images)*
 ### 🌐 Let's Connect
 
 <a href="https://www.linkedin.com/in/bikasha-gurung">
