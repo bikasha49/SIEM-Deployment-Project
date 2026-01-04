@@ -107,31 +107,31 @@ The environment consists of a Windows 10 endpoint, a Splunk Universal Forwarder 
 
 ### 1️⃣ Splunk Dashboard Access
 Shows successful access to the Splunk Enterprise dashboard.
-![Splunk Dashboard Home](images/splunk_dashboard_home.png)
+![Splunk Dashboard Home](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_dashboard_home.png)
 
 ### 2️⃣ Secure Web Access (HTTPS Enabled)
 Confirms SSL/HTTPS is enabled for secure Splunk Web access.
-![HTTPS Enabled](images/splunk_https_enabled.png)
+![HTTPS Enabled](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_https_enabled.png)
 
 ### 3️⃣ Indexer Receiving Port Enabled
 Shows TCP port 9997 enabled to receive data from Universal Forwarders.
-![Receiving Port 9997](images/splunk_receiving_port_9997_enabled.png)
+![Receiving Port 9997](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_receiving_port_9997_enabled.png)
 
 ### 4️⃣ Data Ingestion Detected
 Confirms Splunk successfully detected incoming log data.
-![Data Ingestion Detected](images/splunk_data_ingestion_detected.png)
+![Data Ingestion Detected](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_data_ingestion_detected.png)
 
 ### 5️⃣ Data Summary View
 Displays hosts, sources, and sourcetypes actively indexed.
-![Data Summary](images/41%20data%20summary.png)
+![Data Summary](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/data_summary.png)
 
 ### 6️⃣ Real-Time Search Results
 Shows indexed Windows events with timestamps and host context.
-![Search Results](images/42%20receiving%20data%20from%20endpoint.png)
+![Search Results](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/search_results.png)
 
 ### 7️⃣ Log Source Breakdown
 Breakdown of Security, System, and Application logs.
-![Source Breakdown](images/source_breakdown.png)
+![Source Breakdown](https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/source_breakdown.png)
 
 
 ## Security Best Practices Applied
