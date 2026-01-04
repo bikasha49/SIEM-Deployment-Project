@@ -1,1 +1,41 @@
+ <dashboard>
+  <label>SIEM Detections</label>
 
+  <row>
+    <panel>
+      <title>Brute Force Attempts, MITRE T1110</title>
+      <table>
+        <search>
+          <query>index=main source="WinEventLog:Security" EventCode=4625
+| eval user=coalesce(TargetUserName, Account_Name, user)
+| eval src_ip=coalesce(IpAddress, Source_Network_Address, src)
+| where isnotnull(user)
+| stats count as failed_attempts earliest(_time) as first_time latest(_time) as last_time values(Failure_Reason) as failure_reasons by user src_ip host
+| where failed_attempts&gt;=10
+| eval mitre_technique="T1110"
+| eval mitre_name="Brute Force"
+| eval mitre_mapping=mitre_technique . " " . mitre_name
+| convert ctime(first_time) ctime(last_time)
+| table mitre_mapping failed_attempts user src_ip host first_time last_time failure_reasons
+| sort -failed_attempts</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+      </table>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <title>Failed Logons Trend, EventCode 4625</title>
+      <chart>
+        <search>
+          <query>index=main source="WinEventLog:Security" EventCode=4625
+| timechart span=5m count as failed_logons</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+      </chart>
+    </panel>
+  </row>
+</dashboard>
