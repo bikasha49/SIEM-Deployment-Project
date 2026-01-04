@@ -5,7 +5,7 @@
 This project demonstrates how to build a security information and event management environment using Splunk Enterprise on a Linux host.  A Windows endpoint generates logs that are shipped via a Universal Forwarder.  The lab shows how to collect, forward, and analyse security telemetry to support a SOC analyst workflow.  The goal is to learn the engineering side of a SIEM, not just installation and to highlight tangible results.
 
 ## Project Architecture
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/3cbf7a8b97697573edf9952015fe0fefab00bde4/images/Splunk-SIEM-architecture-diagram.png" alt="Project Architecture" width="80%">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/3fcd52ecbe6033de6ca603e6ec72f596db0b5597/images/Splunk-SIEM-architecture-diagram.png" alt="Project Architecture" width="80%">
 </p>
 The environment consists of a Windows 10 endpoint, a Splunk Universal Forwarder and a Splunk Enterprise server acting as indexer and search head.  Logs flow from the endpoint to the forwarder and then to the server.  The high‑resolution diagram above makes it easy to see the components and log flow at a glance.
 
@@ -175,7 +175,7 @@ Breakdown of Security, System, and Application logs.
 
 • Provides documented evidence of detection logic and analysis skills
 
-## Screenshots and Evidence 👉 *[Click here](https://github.com/bikasha49/SIEM-Deployment-Project/tree/main/images)*
+## Screenshots and Evidence 👉 *[Click here](https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/tree/main/images)*
 ### 🌐 Let's Connect
 
 <a href="https://www.linkedin.com/in/bikasha-gurung">
