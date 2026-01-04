@@ -77,13 +77,20 @@ The environment consists of a Windows 10 endpoint, a Splunk Universal Forwarder 
 
 ## MITRE ATT&CK Techniques
 
-• Initial Access: Valid accounts (T1078) — Brute force detection covers this technique
+• Credential Access
+Brute Force, T1110. Detect repeated failed logons, EventCode 4625.
 
-• Persistence: Service installation and modification (T1035) — Monitoring new services and start ups
+• Initial Access
+Valid Accounts, T1078. Detect successful logons after failures, EventCode 4624 tied to the same user or source.
 
-• Privilege Escalation: User account privilege changes (T1068)
+• Persistence
+Windows Service, T1543.003. Detect new services or service configuration changes.
 
-• Defense Evasion: Disabling security logging (T1089) — Noted when logs stop
+• Privilege Escalation
+Account Manipulation, T1098. Detect admin group membership changes and privilege assignments.
+
+• Defense Evasion
+Impair Defenses, T1562.001. Detect disabling security tools or attempts to reduce logging.
 
 ## Threat Hunting Workflow
 
@@ -97,11 +104,9 @@ The environment consists of a Windows 10 endpoint, a Splunk Universal Forwarder 
 
 ## MITRE ATT&CK Alignment
 
-• Mapped each detection query to tactics and techniques for traceability
-
-• Demonstrated coverage of multiple stages of the attack lifecycle
-
-• Used the framework to prioritise additional detection ideas
+• Mapped each detection query to one technique ID for traceability.
+• Used the mapping to show coverage across the attack lifecycle.
+• Used gaps in coverage to plan the next detections to build.
 
 ## Operational Evidence
 
