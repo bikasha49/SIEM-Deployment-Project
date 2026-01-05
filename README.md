@@ -112,12 +112,12 @@ Impair Defenses, T1562.001. Detect disabling security tools or attempts to reduc
 
 ### 1️⃣ Splunk Dashboard Access
 Shows successful access to the Splunk Enterprise dashboard.  
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_dashboard_home.png" width="550" align="left">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/06bf941d312515a780f28aca9b6f7736ea369bdc/images/splunk_dashboard_home.png" width="550" align="left">
 <br clear="left"/>
 
 ### 2️⃣ Secure Web Access (HTTPS Enabled)
 Confirms SSL and HTTPS is enabled for secure Splunk Web access.  
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_https_enabled.png" width="550" align="left">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/06bf941d312515a780f28aca9b6f7736ea369bdc/images/splunk_receiving_port_9997_enabled.png" width="550" align="left">
 <br clear="left"/>
 
 ### 3️⃣ Indexer Receiving Port Enabled
@@ -127,22 +127,22 @@ Shows TCP port 9997 enabled to receive data from Universal Forwarders.
 
 ### 4️⃣ Data Ingestion Detected
 Confirms Splunk successfully detected incoming log data.  
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/splunk_data_ingestion_detected.png" width="550" align="left">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/06bf941d312515a780f28aca9b6f7736ea369bdc/images/splunk_data_ingestion_detected.png" width="550" align="left">
 <br clear="left"/>
 
 ### 5️⃣ Data Summary View
 Displays hosts, sources, and sourcetypes actively indexed.  
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/data_summary.png" width="550" align="left">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/06bf941d312515a780f28aca9b6f7736ea369bdc/images/data_summary.png" width="550" align="left">
 <br clear="left"/>
 
 ### 6️⃣ Real Time Search Results
 Shows indexed Windows events with timestamps and host context.  
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/search_results.png" width="550" align="left">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/06bf941d312515a780f28aca9b6f7736ea369bdc/images/search_results.png" width="550" align="left">
 <br clear="left"/>
 
 ### 7️⃣ Log Source Breakdown
 Breakdown of Security, System, and Application logs.  
-<img src="https://github.com/bikasha49/SIEM-Deployment-Project/blob/950eeff811def6df75f3089b6a05a43b40f84653/images/source_breakdown.png" width="550" align="left">
+<img src="https://github.com/bikasha49/Splunk_SIEM_Deployment_Windows_Telemetry_Threat_Hunting/blob/06bf941d312515a780f28aca9b6f7736ea369bdc/images/source_breakdown.png" width="550" align="left">
 <br clear="left"/>
 
 
